@@ -1,0 +1,181 @@
+@CHARSET "ISO-8859-1";
+
+input#inputSuccess2{
+  margin-left: 30px;
+  margin-top: 45px;
+  border-radius: 25px;
+  }
+  div#notification
+  {
+    margin-left: 600px;
+    margin-top: 45px;
+  }
+  div#welcome{
+  margin-left: 50px;
+  margin-top: 45px;
+  }
+  input#mybtn{
+  margin-left: 100px;
+  margin-top: 45px;
+  border-radius: 25px;
+  width : 100px;
+  }
+  
+  .well{
+  
+  height: 800px;
+  
+  margin-top: 20px;
+  }
+  button#btn2{
+  margin-top: 40px;
+  border-radius: 25px;
+  width: 140px;
+  }
+  button#btn3{
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: -80px;
+  }
+  input#inputSuccess{
+  margin-left:-90px;
+  margin-top: 10px;
+  border-radius: 25px;
+  }
+  span#searchicon{
+  margin-top: 10px;
+  
+  }
+  span#prod{
+  font-size: 30px;
+  
+  }
+  span#profile{
+  margin-top: 20px;
+  }
+  tr{
+  height: 50px;
+  }
+  
+  th,td{
+  border: solid 1px #d4c2c2;
+  }
+  table{
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-top: 20px;
+  }
+	
+	
+   .input-container {
+  margin-top: 2px;
+}
+
+/* use :not selector here to support older broswers 
+   more info: http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/
+*/
+
+.input-container input[type=checkbox]:not(old) {
+  opacity: 0;
+  /* match the dimentsions of the custom label */
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/**
+ * The box
+ */
+
+.input-container label {
+  position: relative;
+}
+
+.input-container label::after {
+  content: "";
+  position: absolute;
+  /*cover the default input */
+  top: -10px;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius:20px;
+  transform: rotate(0);
+  pointer-events: none;
+  text-align: center;
+  color: black; /* easier to see in demo */
+}
+
+
+
+.input-container input[type=checkbox]:checked+label:after {
+  content: "\2713";
+ }
+ 
+ 
+ 
+ .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+        color: black;
+        background-color: #7a7977;
+    }
+
+        .nav-pills > li.active > a:hover {
+            background-color: #55585e;
+            color:black;
+        }
+   	#id5{
+background-color:#ede8e8;
+
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 140%;
+  margin: 4px 2px;
+  width: 150px;
+height: 28px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: transparent;
+  margin-top:50px;
+  
+}
+#id6{
+background-color:#ede8e8;
+
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 140%;
+  margin: 4px 2px;
+  width: 150px;
+height: 28px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: transparent;
+}
+  
+ .item {
+    position:relative;
+    padding-top:20px;
+    margin-left:20px;
+    display:inline-block;
+}
+ .item .btn
+ {
+ position: absolute;
+  left:94%;
+  top:14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  
+  text-align: top;
+ }
